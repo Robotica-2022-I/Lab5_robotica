@@ -51,12 +51,9 @@ A continuación se presenta el video donde se evidencia el funcionamiento de la 
 
 
   [![Alt text](https://img.youtube.com/vi/uRHSwcJ6vfw/0.jpg)](https://www.youtube.com/watch?v=uRHSwcJ6vfw)
-  
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/QDx7kIwt_BA?feature=share)
 
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/vBoiy9MRuak?feature=share)
-
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/4Q69lODFn5Y?feature=share)\
+# Tomar herramienta
+[![Alt text](https://i9.ytimg.com/vi_webp/w0KtlU8nmic/mq1.webp?sqp=CLyj6qMG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYACgAqKAgwIABABGH8gFigdMA8=&rs=AOn4CLBySHaAW_QSTVU5JlM34KWNhg_G-g)](https://youtube.com/shorts/4Q69lODFn5Y?feature=share)\
 
 # Arcos
 [![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/w0KtlU8nmic)
@@ -64,3 +61,7 @@ A continuación se presenta el video donde se evidencia el funcionamiento de la 
 [![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/BSI8GYFt1AM)
 # Letras
 [![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/c9Hd1wuyeSQ)
+# Descargar Herramienta  
+[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/QDx7kIwt_BA?feature=share)
+# Funcionamiento HMI
+[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/vBoiy9MRuak?feature=share)
