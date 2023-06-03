@@ -50,6 +50,9 @@ Esta HMI se realizó en base a la HMI del laboratorio 4, pero agregandole las si
  - El botón de actualizar da el ángulo en que se encuentra cada servo motor.
  - SI el boton de aceptar se presiona al iniciar el programa, el Phantom se posiciona en su HOME.
  La HMI puede verse en la siguiente imagen:
+ 
+ 
+ 
  ![Imagen 1](HMI.png)
  
 La HMI, tambien identifica si existe una conexión con el phanton o no, y el tiempo en que realiza cada rutina.
