@@ -34,34 +34,32 @@ Dicha HMI es capaz de indicar una serie de rutinas al brazo, en el primer frame 
 
 El segundo frame envía las distintas rutinas al Phantom X, a la izquierda se puede seleccionar una de las 5 rutinas estipuladas en el laboratorio y cuenta con el botón de enviar a la derecha para enviar la instrucción, a la derecha se puede observar el tiempo total que tomó realizar la última rutina y debajo de este se muestra el estado de la herramienta cargada o descargada.
 
-En el Frame inferior se puede visualizar los datos en tiempo real enviados por el Phantom X de posición en grados, cuenta con un botón de actualizar para iniciar la conección y leer los datos, estos se muestran en orden desde la articulación 1 hasta la 5 en forma de lista y el estado de activación del toruque de cada una.
+En el Frame inferior se puede visualizar los datos en tiempo real enviados por el Phantom X de posición en grados, cuenta con un botón de actualizar para iniciar la conección y leer los datos, estos se muestran en orden desde la articulación 1 hasta la 5 en forma de lista.
 
 El archivo "HMI.py" se encuentra adjunto en este repositorio. El procedimiento de su funcionamiento es el siguiente:
    - Se inicializa el ROS mediante el comando roslaunch el codigo one_controller.launch del paquete dynamixel_one_motor
    - Se ejecuta la HMI y se puede empezar a manipular el Phantom X
-   - El usuario debe darle la posición al brazo, sea de las 5 iniciales o escribir otra posición deseada.
-   - Cuando se envía la instrucción de movimiento, se llama la función joint_publisher() a la cual le ingresan los valores correspondientes de cada articulación en radianes y mediante el comando joint_trajectory se crea un nodo llamado joint_publisher que empezará a enviar estos datos al Phantom X y finalmente se verá el movimiento reflejado en el mecanismo.
+   - El usuario debe darle la instrucción de tomar el marcador al brazo, de otra manera el brazo no reaccionará al resto de rutinas.
+   - Cuando se envía la instrucción de movimiento, se llama la función joint_publisher() a la cual le ingresan los valores correspondientes de cada articulación por medio de un archivo txt que contine una lista con todos los puntos necesarios para la rutina  y mediante el comando joint_trajectory se crea un nodo llamado joint_publisher que empezará a enviar estos datos al Phantom X y finalmente se verá el movimiento reflejado en el mecanismo.
    - A continuación se puede empezar a leer los datos de posición del Phantom X pulsando el botón Actualizar de la parte inferior, este botón llama la función listener() la cual iniciliza el nodo 'joint_listener' que utiliza el script "joint_states" del paquete dynamixel_workbench para obtener los datos de posición, estos son tomados en la función callback() y se convierten de radianes a grados para agregarlos al Treeview y mostrarlos en tiempo real
 
 Se tomó como base los archivos presentes en el paquete de Dynamixel "jointPub.py", "jointSub.py" y "jointSrv.py"  y el archivo "basic.yalm" se modificó, para agregar los 4 joints faltantes.
 
 
 # 4) Video de implementación
-A continuación se presenta el video donde se evidencia el funcionamiento de la interfaz gráfica y el movimiento del brazo.
+A continuación se presenta el video donde se evidencia el funcionamiento de la interfaz gráfica y las diferentes rutinas del brazo.
 
-
-  [![Alt text](https://img.youtube.com/vi/uRHSwcJ6vfw/0.jpg)](https://www.youtube.com/watch?v=uRHSwcJ6vfw)
 
 # Tomar herramienta
 [![Alt text](https://i9.ytimg.com/vi_webp/w0KtlU8nmic/mq1.webp?sqp=CLyj6qMG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYACgAqKAgwIABABGH8gFigdMA8=&rs=AOn4CLBySHaAW_QSTVU5JlM34KWNhg_G-g)](https://youtube.com/shorts/4Q69lODFn5Y?feature=share)\
 
 # Arcos
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/w0KtlU8nmic)
+[![Alt text](https://i9.ytimg.com/vi_webp/w0KtlU8nmic/mq1.webp?sqp=CLyj6qMG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYACgAqKAgwIABABGH8gFigdMA8=&rs=AOn4CLBySHaAW_QSTVU5JlM34KWNhg_G-g)](https://youtu.be/w0KtlU8nmic)
 # Corazón
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/BSI8GYFt1AM)
+[![Alt text](https://i9.ytimg.com/vi_webp/w0KtlU8nmic/mq1.webp?sqp=CLyj6qMG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYACgAqKAgwIABABGH8gFigdMA8=&rs=AOn4CLBySHaAW_QSTVU5JlM34KWNhg_G-g)](https://youtu.be/BSI8GYFt1AM)
 # Letras
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/c9Hd1wuyeSQ)
+[![Alt text](https://i9.ytimg.com/vi_webp/w0KtlU8nmic/mq1.webp?sqp=CLyj6qMG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYACgAqKAgwIABABGH8gFigdMA8=&rs=AOn4CLBySHaAW_QSTVU5JlM34KWNhg_G-g)](https://youtu.be/c9Hd1wuyeSQ)
 # Descargar Herramienta  
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/QDx7kIwt_BA?feature=share)
+[![Alt text](https://i9.ytimg.com/vi_webp/w0KtlU8nmic/mq1.webp?sqp=CLyj6qMG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYACgAqKAgwIABABGH8gFigdMA8=&rs=AOn4CLBySHaAW_QSTVU5JlM34KWNhg_G-g)](https://youtube.com/shorts/QDx7kIwt_BA?feature=share)
 # Funcionamiento HMI
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/vBoiy9MRuak?feature=share)
+[![Alt text](https://i9.ytimg.com/vi_webp/w0KtlU8nmic/mq1.webp?sqp=CLyj6qMG-oaymwEmCMACELQB8quKqQMa8AEB-AHOBYACgAqKAgwIABABGH8gFigdMA8=&rs=AOn4CLBySHaAW_QSTVU5JlM34KWNhg_G-g)](https://youtube.com/shorts/vBoiy9MRuak?feature=share)
