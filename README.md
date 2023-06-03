@@ -45,6 +45,9 @@ El archivo "HMI.py" se encuentra adjunto en este repositorio. El procedimiento d
 
 Se tomó como base los archivos presentes en el paquete de Dynamixel "jointPub.py", "jointSub.py" y "jointSrv.py"  y el archivo "basic.yalm" se modificó, para agregar los 4 joints faltantes.
 
+Esta HMI se diferencia de la del laboratorio pasado, en 3 características:
+
+
 
 # 4) Video de implementación
 A continuación se presenta el video donde se evidencia el funcionamiento de la interfaz gráfica y las diferentes rutinas del brazo.
