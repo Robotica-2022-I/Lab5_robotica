@@ -56,8 +56,11 @@ A continuación se presenta el video donde se evidencia el funcionamiento de la 
 
 [![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/vBoiy9MRuak?feature=share)
 
-[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/4Q69lODFn5Y?feature=share)
+[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtube.com/shorts/4Q69lODFn5Y?feature=share)\
 
-
-
-
+# Arcos
+[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/w0KtlU8nmic)
+# Corazón
+[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/BSI8GYFt1AM)
+# Letras
+[![Alt text](https://img.youtube.com/vi/eHptf9mHE9Y/0.jpg)](https://youtu.be/c9Hd1wuyeSQ)
