@@ -52,7 +52,7 @@ Esta HMI se realizó en base a la HMI del laboratorio 4, pero agregandole las si
  La HMI puede verse en la siguiente imagen:
  ![Imagen 1](HMI.png)
  
-
+La HMI, tambien identifica si existe una conexión con el phanton o no, y el tiempo en que realiza cada rutina.
 
 
 # 4) Video de implementación
