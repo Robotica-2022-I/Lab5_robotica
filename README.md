@@ -28,6 +28,10 @@ Para la solución de esta práctica es necesario realizar un modelo de cinemáti
   - Dibujar figura: El brazo dibujará un corazón en el espacio del trabajo.
   - Dejar herramienta: El brazo se moverá para soltar el marcador en la base y se moverá a la posición de home.
 
+La cinemática inversa se desarrolló en matlab, dicha expresión se extrajo por el método geométrico y se le aplicó los puntos para crear las rutinas necesarias.El archivo empleado se emcuentra adjunto, con el nombre de "Pinchercininv.mlx".
+
+
+
 # 3) HMI en Python
 Para lograr el desarrollo del laboratorio, se realizó una HMI, empleando el paquete tkinter. 
 Dicha HMI es capaz de indicar una serie de rutinas al brazo, en el primer frame de la parte superior se evidencia la información personal de los autores del laboratorio y el logo de la Universidad Nacional de Colombia.
